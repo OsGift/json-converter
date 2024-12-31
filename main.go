@@ -87,6 +87,7 @@ func generateGoStruct(jsonData interface{}, parentKey string, structs map[string
 
 		result += "}\n"
 	}
+	fmt.Println("result: ", result)
 
 	return result, nil
 }
