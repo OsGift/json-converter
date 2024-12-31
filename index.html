@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON to Go Struct Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>JSON to Go Struct Converter</h1>
+
+        <div class="input-section">
+            <label for="json-input">Enter JSON:</label>
+            <textarea id="json-input" placeholder='{"name": "John", "age": 30}'></textarea>
+        </div>
+
+        <button id="convert-btn">Convert to Go Struct</button>
+
+        <div class="output-section">
+            <h2>Generated Go Struct</h2>
+            <pre id="go-struct-output"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
